@@ -1,0 +1,6 @@
+# B_6 x Z_2 의 표지 표 시험 (scripts/probe_tom_b6z2.g)
+# 실행: timeout 1800 gap -A -q -o 6g scripts/probe_tom_b6z2.g < /dev/null   (코어 하나, 2026-11-12 22:24 시작)
+# 결과: exit 124 elapsed 1800s   (종료 코드 124 는 제한 시간(1800초)에 걸려 멈췄다는 뜻이다)
+# 작업 공간 전체의 메모리: 8022 MB 가운데 시험 중 사용량(전체 - available)의 최댓값 678 MB, 20초마다 90번 기록, 메모리 한도(6 GB)에는 닿지 않았다
+# GAP 로그:
+start: |G| = 46080, |GA| = 92160

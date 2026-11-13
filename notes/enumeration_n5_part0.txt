@@ -1,0 +1,26 @@
+# NV 5 part 0 of 2 range 0 1073741824 selfchecked 261953
+# kind order orbit_lengths orbits_on_pairings count   (count is for the half with top bit 0)
+hbar 1 11111 15 981664752
+hbar 120 5 1 241
+hbar 24 14 2 8895
+hbar 12 23 3 79218
+hbar 4 122 6 4064160
+hbar 2 1112 9 75469848
+hbar 6 113 4 536232
+hbar 8 14 4 104106
+hbar 2 122 9 11731392
+hbar 10 5 3 4440
+hbar 4 14 6 68016
+hbar 4 14 5 10356
+hbar 20 5 2 168
+g 1 11111 15 1030172160
+g 120 5 1 16
+g 24 14 2 1200
+g 12 23 3 10080
+g 6 113 4 148800
+g 4 122 6 937440
+g 2 1112 9 39551040
+g 8 14 4 11520
+g 2 122 9 2901600
+g 10 5 3 288
+g 4 14 6 7680

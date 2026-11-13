@@ -1,0 +1,14 @@
+# NV 3 part 0 of 1 range 0 128 selfchecked 128 selfchecked_anti 35 balanced 35
+# npn antisym | H: order hbar_order d orbit_lengths vertex_orbits fixed_vertices | Kbar: same six | count   (count is for the half with top bit 0)
+npn 0 1 1 0 111 8 8 1 1 0 111 8 8 0
+npn 0 48 6 3 3 1 0 48 6 3 3 1 0 1
+npn 0 6 6 0 3 4 2 6 6 0 3 4 2 16
+npn 0 4 2 1 12 3 0 4 2 1 12 3 0 12
+npn 0 4 2 1 12 4 0 4 2 1 12 4 0 12
+npn 0 2 2 0 12 6 4 2 2 0 12 6 4 48
+npn 1 8 2 2 12 2 0 16 2 3 12 1 0 6
+npn 1 6 6 0 3 4 2 12 6 1 3 2 0 4
+npn 0 12 6 1 3 2 0 12 6 1 3 2 0 4
+npn 1 2 2 0 12 4 0 4 2 1 12 2 0 12
+npn 1 2 2 0 12 6 4 4 2 1 12 3 0 12
+npn 1 24 6 2 3 2 0 48 6 3 3 1 0 1

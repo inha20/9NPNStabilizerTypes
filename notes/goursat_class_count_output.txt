@@ -1,0 +1,14 @@
+n=1 |B_n|=2 classes(B_n)=2 (A269890: 2) nonzero_orbits=1 total=5 (tom: 
+5) maxd=1 dist=[ 1, 1 ] true
+n=2 |B_n|=8 classes(B_n)=8 (A269890: 8) nonzero_orbits=11 total=27 (tom: 
+27) maxd=2 dist=[ 1, 4, 3 ] true
+n=3 |B_n|=48 classes(B_n)=33 (A269890: 33) nonzero_orbits=65 total=131 (tom: 
+131) maxd=3 dist=[ 3, 13, 14, 3 ] true
+n=4 |B_n|=384 classes(B_n)=193 (A269890: 193) nonzero_orbits=608 total=
+994 (tom: 994) maxd=4 dist=[ 6, 36, 91, 53, 7 ] true
+n=5 |B_n|=3840 classes(B_n)=953 (A269890: 953) nonzero_orbits=4476 total=
+6382 (tom: 6382) maxd=5 dist=[ 10, 94, 363, 382, 97, 7 ] true
+n=6 |B_n|=46080 classes(B_n)=7440 (A269890: 7440) nonzero_orbits=51019 total=
+65899 maxd=6 dist=[ 28, 312, 1687, 3392, 1759, 249, 13 ]
+n=6 check: 555 classes (d>=5: 262) recounted by maximal subgroups, mismatches=
+0

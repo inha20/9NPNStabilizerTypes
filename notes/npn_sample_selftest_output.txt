@@ -1,0 +1,4 @@
+# sample_npn_stabilizers.c 의 자체 점검 (거르기 규칙을 쓴 분석과 거르지 않은 분석의 비교; H 형: 평행이동으로 만든 함수, A 형: 반대칭을 심은 함수)
+# 실행: ./sampnpn5 selftest 20000 12345 ; ./sampnpn6 selftest 20000 12345
+selftest NV=5: H-type 10000 (nontrivial H 17171), A-type 7590 (antisymmetric found 9008, skipped 2410), mismatches 0
+selftest NV=6: H-type 10000 (nontrivial H 17483), A-type 7686 (antisymmetric found 8342, skipped 2314), mismatches 0

@@ -1,0 +1,32 @@
+# 명제 A1·A2 대조 기록 (2026-11-11)
+
+## gap -q scripts/export_class_representatives.g   (n = 5)
+n = 5
+[A1] |W(기하)| = 256, 기대값 8^k k! (홀수면 2배) = 256
+[A1] W(기하) <= B_n: true,  W(기하) = N : Stab(p0): true,  [B_n : W] = 15 = |M_n| = 15
+[A2] 안정화군으로 나타나는 켤레류 143개 (전체 953개) 가운데 이중잉여류 수와 궤도 수가 다른 것: 0개
+[내보내기] 143개 켤레류 가운데 함수를 찾지 못한 것: 0개 -> notes/class_representatives_n5.txt
+
+## 같은 스크립트, N := 6
+n = 6
+[A1] |W(기하)| = 3072, 기대값 8^k k! (홀수면 2배) = 3072
+[A1] W(기하) <= B_n: true,  W(기하) = N : Stab(p0): true,  [B_n : W] = 15 = |M_n| = 15
+[A2] 안정화군으로 나타나는 켤레류 790개 (전체 7440개) 가운데 이중잉여류 수와 궤도 수가 다른 것: 0개
+[내보내기] 790개 켤레류 가운데 함수를 찾지 못한 것: 0개 -> notes/class_representatives_n6.txt
+
+## python scripts/check_pictures_by_definition.py --selftest4
+[A1] n = 4: 통과 - |W| = 128 (기대 128), 입력 반전 16개 (기대 16)
+[n=4 전수] T = 1/2/3 인 함수: 3220 36204 26112 (7번 논문: 3220 36204 26112)
+모두 일치한다.
+
+## python scripts/check_pictures_by_definition.py notes/class_representatives_n5.txt
+[A1] n = 5: 통과 - |W| = 256 (기대 256), 입력 반전 32개 (기대 32)
+[그림 비교] n = 5: 함수 143개(안정화군 유형마다 하나) 가운데 불일치 0개
+    정의대로 센 T 값별 유형 수: {1: 4, 2: 9, 3: 18, 4: 28, 5: 2, 6: 45, 9: 32, 15: 5}
+모두 일치한다.
+
+## python scripts/check_pictures_by_definition.py notes/class_representatives_n6.txt
+[A1] n = 6: 통과 - |W| = 3072 (기대 3072), 입력 반전 64개 (기대 64)
+[그림 비교] n = 6: 함수 790개(안정화군 유형마다 하나) 가운데 불일치 0개
+    정의대로 센 T 값별 유형 수: {1: 12, 2: 50, 3: 71, 4: 150, 5: 105, 6: 232, 7: 34, 8: 15, 9: 101, 11: 7, 15: 13}
+모두 일치한다.

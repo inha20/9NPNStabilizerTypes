@@ -1,0 +1,38 @@
+# 9 (이름 미정) — 7번 논문의 후속 연구
+
+[7KarnaughGroupClassification](https://github.com/inha20/7KarnaughGroupClassification)(4변수 카르노맵의 격자 대칭과 그림 종류 수)의 후속 연구를 위한 작업 폴더이다. 학술대회 발표를 목표로 하지 않는 순수 후속 연구이며, 저장소 이름은 아직 정하지 않았다. 갈래는 둘이다. 그림 종류 수의 일반화(줄기)와 회로 최적화 탐색이다.
+
+**현황, 저자의 결정, 계획은 [`PLAN.md`](PLAN.md)에 있다.** 논문 원고는 없다.
+
+## 들어 있는 것
+
+모든 파일은 Claude가 작성했고 저자 검토 전이다(`*_output.txt`, `class_representatives_*.txt`, `enumeration_n5_part*.txt`는 스크립트의 출력).
+
+| 주제 | 기록 (`notes/`) | 스크립트 (`scripts/`) |
+|:---|:---|:---|
+| 4변수에서 그림 종류 수와 분해 차트(2\|2, 3\|1) | `2026-11-11_probe_n4.md`, `probe_n4_output.txt`, `probe_three_one_output.txt` | `probe_multiplicity_vs_pictures.py`, `probe_three_one_partitions.py` |
+| 5·6변수에서 그림 종류 수의 정확한 분포 | `2026-11-11_picture_types_n5_n6.md`, `picture_type_distribution_*_output.txt` | `picture_type_distribution.g` |
+| 위 계산이 기대는 명제 A1·A2의 대조 | `verification_A1_A2_output.txt`, `class_representatives_n5.txt`, `class_representatives_n6.txt` | `export_class_representatives.g`, `check_pictures_by_definition.py` |
+| 5변수 이하의 전수 열거 | `enumeration_comparison_output.txt`, `enumeration_n5_part0.txt`, `enumeration_n5_part1.txt` | `enumerate_all_functions.c`, `compare_enumeration.py` |
+| 대칭의 종류별 분해, 입력 반전을 허용할 때의 차이, 선행 연구 조사 | `2026-11-11_symmetry_types_and_prior_art.md`, `picture_types_by_symmetry_output.txt` | `picture_types_by_symmetry.g` |
+| 일반 $n$의 초안과 6변수의 외부 자기동형 | `2026-11-12_general_n_draft.md`, `check_general_bounds_output.txt`, `check_general_n_proofs_output.txt`, `check_s6_outer_automorphism_output.txt` | `check_general_bounds.py`, `check_general_n_proofs.py`, `check_s6_outer_automorphism.g` |
+| 입력 반전이 섞인 $C_4$ 대칭을 가진 5변수 함수의 예(지도 그림), 평행이동 공액이 아님, $n = 5, 6, 9, 10$으로의 일반화 | `2026-11-12_example_c4_n5.md`, `example_c4_n5_output.txt`, `check_selfcomplementary_family_output.txt` | `example_c4_n5.py` (`check_pictures_by_definition.py`가 필요), `check_selfcomplementary_family.py` (`check_general_bounds.py`가 필요) |
+| $B_n$ 안의 완전 안정화군의 분류($n \le 6$): 어떤 군이 나타나고 군마다 함수가 몇 개인가, 닫힘, 유형(U, T0, T1), 전수 열거와의 대조, 변수 순열만 쓴 같은 계산과 Maurer(2015)의 표와의 대조 | `2026-11-12_stabilizer_types.md`, `stabilizer_types_n1.tsv` … `stabilizer_types_n6.tsv`, `stabilizer_types_n1_absent.tsv` … `stabilizer_types_n6_absent.tsv`, `stabilizer_types_summary_output.txt`, `full_stabilizer_enumeration_*.txt`, `compare_full_enumeration_output.txt`, `check_perm_only_vs_maurer_output.txt` | `stabilizer_types.g`, `analyze_stabilizer_types.py`, `enumerate_full_stabilizers.c`, `compare_full_enumeration.py`, `check_perm_only_vs_maurer.g` |
+| NPN 판: 출력 반전까지 넣은 안정화군 $K(f) \le B_n \times \mathbb{Z}_2$의 분류($n \le 6$ 전체): 어떤 군이 나타나고 군마다 함수가 몇 개인가, 반대칭(자기보수) 구조, $B_n \times \mathbb{Z}_2$의 부분군 켤레류 수(Goursat), 전수 열거·직접 계산·균일 표본과의 대조 | `2026-11-12_npn_stabilizer_types.md`, `npn_stabilizer_types_n1.tsv` … `n6.tsv`, `npn_projected_types_n1.tsv` … `n6.tsv`, `npn_projected_types_n1_absent.tsv` … `n6_absent.tsv`, `npn_stabilizer_types_gap_output.txt`, `npn_stabilizer_types_summary_output.txt`, `full_npn_enumeration_*.txt`, `check_npn_bruteforce_output.txt`, `probe_tom_b6z2_output.txt`, `npn_pair_data_n3.tsv` … `n6.tsv`, `npn_pair_resolution_output.txt`, `npn_pair_enum_n6_*.txt`, `npn_pair_enum_jobs_n6_*.txt.gz`, `npn_pair_fixed_n6.txt`, `npn_pair_randfix_n6.txt`, `npn_pair_randfix_jobs_n6_*.txt.gz`, `npn_randfix_check_output.txt`, `npn_sample_n5.txt`, `npn_sample_n6_a.txt`, `npn_sample_n6_b.txt`, `npn_sample_compare_output.txt`, `npn_sample_selftest_output.txt`, `goursat_class_count_output.txt` | `npn_stabilizer_types.g`, `analyze_npn_stabilizer_types.py`, `enumerate_npn_stabilizers.c`, `check_npn_bruteforce.py`, `probe_tom_b6z2.g`, `npn_pair_resolution.g`, `solve_npn_pair_resolution.py`, `make_npn_k_table.py`, `enum_fix_prep.g`, `combine_enum_fix.py`, `sample_npn_stabilizers.c`, `compare_npn_sample.py`, `check_randfix.py`, `goursat_class_count.g`, `goursat_class_count_run.g` |
+| 7번에서 옮겨 온 노트 (일반화, 2변수 지도, 회로 최적화 탐색) | `from_repo7/` (목록과 원래 위치는 그 안의 `README.md`) | `verify_general_n.py` |
+| 회로 최적화 탐색의 예비 실험 | `2026-11-12_circuit_pilot.md`, `circuit_and_counts.txt`, `circuit_and_counts_compress2rs.txt`, `circuit_*_output.txt`, `circuit_pilot_orbits.csv` | `circuit_all_functions.py`, `circuit_analyze.py`, `circuit_stronger_scripts.py`, `circuit_pilot.py` |
+| 회로 실험: 세 가지 비용 기준(게이트 수, 셀 면적 대용값, LUT 수)으로 65,536개 전수 측정, 궤도 안의 일정성 | `2026-11-12_circuit_metrics.md`, `circuit_metrics.txt.gz`, `circuit_metrics_analyze_output.txt`, `circuit_metrics_orbits.csv`, `circuit_metrics_native_abc_1_6.txt.gz`, `circuit_native_abc_compare_output.txt` | `circuit_metrics.py`, `circuit_metrics_analyze.py`, `circuit_native_abc_compare.py` |
+| 회로 실험: 설정값으로 함수를 고르는 두 구조, 정확 합성과의 비교(Krinkin의 공개 값과의 비교 포함), LUT 매핑 순서, 여러 함수의 동시 구현 | 같은 노트, `circuit_configurable_output.txt`, `circuit_exact_*.txt`, `circuit_exact_compare_output.txt`, `circuit_lut_flows_output.txt`, `circuit_multi_output_output.txt` | `circuit_configurable.py`, `circuit_exact.py`, `circuit_exact_compare.py`, `circuit_exact_vs_krinkin.py`, `circuit_lut_flows.py`, `circuit_multi_output.py` |
+| 회로 실험(C8): 5변수 표본(궤도 안의 일정성, 변환의 종류별 이득), LUT4의 정확한 최솟값과 도구의 간격, 매핑 순서 비교 | `2026-11-12_circuit_n5.md`, `circuit_n4_sample_*`, `circuit_n5_*`(원자료 `*.txt.gz`와 각 스크립트의 출력) | `circuit_sample_orbits.py`, `circuit_lut4_exact_n5.py` |
+
+## 실행
+
+- `.py`는 Python 3(표준 라이브러리)만 있으면 된다(`check_general_n_proofs.py`, `check_selfcomplementary_family.py`, `check_npn_bruteforce.py`, `circuit_*.py`는 numpy도 쓴다). 예: `python scripts/check_pictures_by_definition.py notes/class_representatives_n5.txt`
+- `.c`는 C 컴파일러가 필요하다. 컴파일과 실행 방법은 파일 머리의 주석에 있다. 5변수 전수 열거는 두 코어에서 5분쯤 걸린다(NPN 판의 `enumerate_npn_stabilizers.c`도 조각 하나가 코어 하나에서 5분쯤). NPN 판 6변수의 `sample_npn_stabilizers.c`(`-DNV=6`)는 균일 표본 $1.5 \times 10^9$개에 코어 하나에서 14분쯤 걸리고, 군별 열거(`enumfix`)는 꼭짓점 궤도 24 이하인 군 1,112개 전체에 코어 둘로 12분쯤 걸린다.
+- `circuit_*.py`는 Yosys가 필요하다(`pip install yowasp-yosys numpy`). `circuit_metrics.py`의 65,536개 전수 측정은 코어 둘에서 40분쯤 걸린다(묶음 16개를 `python scripts/circuit_metrics.py <출력 파일> <묶음 번호>...`로 나눠 돌린다). 정확 합성(`circuit_exact.py`, `circuit_lut_flows.py`, `circuit_multi_output.py`의 일부)은 ABC를 소스에서 빌드해야 한다(<https://github.com/berkeley-abc/abc>, 커밋 `bde1659`, `make ABC_USE_NO_READLINE=1`). 동치류 222개의 AND 수 정확 합성은 두 코어에서 몇 시간이 걸릴 수 있다(어려운 네 동치류는 1,200초 제한으로는 끝나지 않았다). `circuit_exact_vs_krinkin.py`는 Krinkin의 저장소(<https://github.com/krinkin/bounds>, 커밋 `6a82884`)를 따로 내려받아 읽기만 한다(`python3 -I`로 실행한다).
+- 회로 실험(C8)의 `circuit_sample_orbits.py`와 `circuit_lut4_exact_n5.py`는 numpy와, 소스에서 빌드한 ABC가 필요하다(`-abc <경로>` 또는 환경 변수 `CIRCUIT_ABC`). 5변수 표본 1,000개(변환 16개씩)는 둘로 나눠 두 코어에서 돌리면 4분쯤 걸렸다. `flows`는 3분 안팎, `relabel`은 변환 수에 따라 1분에서 십여 분이 걸린다(환경 변수는 `circuit_lut4_exact_n5.py` 머리말).
+- `.g`는 [GAP](https://www.gap-system.org)이 필요하다. 예: `gap -q scripts/picture_type_distribution.g`. 6변수 계산은 6분쯤 걸린다(NPN 판의 6변수 $\bar K$ 계산은 7분쯤, `-o 6g`. `npn_pair_resolution.g`는 6변수에서 $B_6$의 표지 표 만들기 7분, 자료 내보내기 5분쯤). NPN 판 6변수 $K$ 표를 다시 만드는 순서는 `notes/2026-11-12_npn_stabilizer_types.md` 7절에 있다. 지금까지는 Claude의 작업 공간에서 돌렸다(`PLAN.md` 7절).
+
+## AI 사용 고지
+
+이 폴더의 파일은 저자(최종훈)의 요청으로 Claude(Anthropic)와의 작업 세션에서 만들었다. 저자가 직접 읽거나 실행해 확인한 것은 확인한 날에 이 문서에 적는다. 아직 그런 항목은 없다.

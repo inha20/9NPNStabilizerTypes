@@ -1,0 +1,29 @@
+# NV 4 part 0 of 1 range 0 32768 selfchecked 32768
+# full order hbar_order d orbit_lengths vertex_orbits fixed_vertices pairing_orbits count   (count is for the half with top bit 0)
+full 1 1 0 1111 16 16 3 11328
+full 384 24 4 4 1 0 1 1
+full 24 24 0 4 5 2 1 96
+full 12 6 1 13 4 0 1 176
+full 8 4 1 22 6 0 2 240
+full 4 4 0 22 9 4 2 1728
+full 16 4 2 22 3 0 2 48
+full 6 6 0 13 8 4 1 1280
+full 2 2 0 112 12 8 2 12480
+full 2 2 0 112 8 0 2 1728
+full 8 2 2 112 4 0 2 48
+full 4 2 1 112 6 0 2 480
+full 24 6 2 13 4 0 1 16
+full 4 2 1 112 8 0 2 288
+full 48 6 3 13 2 0 1 8
+full 48 24 1 4 3 0 1 16
+full 8 8 0 4 6 2 2 288
+full 4 4 0 22 7 0 2 576
+full 2 2 0 22 10 4 3 1728
+full 24 6 2 13 2 0 1 16
+full 4 2 1 112 4 0 2 96
+full 32 8 2 4 3 0 2 12
+full 8 4 1 22 4 0 2 24
+full 8 4 1 22 5 0 2 48
+full 32 4 3 22 2 0 2 6
+full 16 8 1 4 2 0 2 12
+full 192 24 3 4 2 0 1 1
