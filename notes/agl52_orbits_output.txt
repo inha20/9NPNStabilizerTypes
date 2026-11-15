@@ -1,0 +1,436 @@
+orbit 0 rep=00000000 size=1 stab=319979520 weight=0
+orbit 1 rep=00000001 size=32 stab=9999360 weight=1
+orbit 2 rep=00000003 size=496 stab=645120 weight=2
+orbit 3 rep=00000007 size=4960 stab=64512 weight=3
+orbit 4 rep=0000000f size=1240 stab=258048 weight=4
+orbit 5 rep=00000017 size=34720 stab=9216 weight=4
+orbit 6 rep=0000001f size=34720 stab=9216 weight=5
+orbit 7 rep=0000003f size=17360 stab=18432 weight=6
+orbit 8 rep=0000007f size=4960 stab=64512 weight=7
+orbit 9 rep=000000ff size=620 stab=516096 weight=8
+orbit 10 rep=00000117 size=166656 stab=1920 weight=5
+orbit 11 rep=0000011f size=416640 stab=768 weight=6
+orbit 12 rep=0000013f size=416640 stab=768 weight=7
+orbit 13 rep=0000017f size=119040 stab=2688 weight=8
+orbit 14 rep=000001ff size=14880 stab=21504 weight=9
+orbit 15 rep=0000033f size=52080 stab=6144 weight=8
+orbit 16 rep=00000356 size=27776 stab=11520 weight=6
+orbit 17 rep=00000357 size=277760 stab=1152 weight=7
+orbit 18 rep=0000035f size=624960 stab=512 weight=8
+orbit 19 rep=0000037f size=416640 stab=768 weight=9
+orbit 20 rep=000003ff size=52080 stab=6144 weight=10
+orbit 21 rep=00000777 size=277760 stab=1152 weight=9
+orbit 22 rep=0000077f size=416640 stab=768 weight=10
+orbit 23 rep=000007ff size=104160 stab=3072 weight=11
+orbit 24 rep=00000fff size=8680 stab=36864 weight=12
+orbit 25 rep=0000177e size=27776 stab=11520 weight=10
+orbit 26 rep=0000177f size=166656 stab=1920 weight=11
+orbit 27 rep=000017ff size=104160 stab=3072 weight=12
+orbit 28 rep=00001fff size=34720 stab=9216 weight=13
+orbit 29 rep=00003fff size=7440 stab=43008 weight=14
+orbit 30 rep=00007fff size=992 stab=322560 weight=15
+orbit 31 rep=0000ffff size=62 stab=5160960 weight=16
+orbit 32 rep=00010117 size=444416 stab=720 weight=6
+orbit 33 rep=0001011f size=2222080 stab=144 weight=7
+orbit 34 rep=0001013f size=3333120 stab=96 weight=8
+orbit 35 rep=0001017f size=952320 stab=336 weight=9
+orbit 36 rep=000101ff size=119040 stab=2688 weight=10
+orbit 37 rep=0001033f size=833280 stab=384 weight=9
+orbit 38 rep=00010356 size=444416 stab=720 weight=7
+orbit 39 rep=00010357 size=4444160 stab=72 weight=8
+orbit 40 rep=0001035f size=9999360 stab=32 weight=9
+orbit 41 rep=0001037f size=6666240 stab=48 weight=10
+orbit 42 rep=000103ff size=833280 stab=384 weight=11
+orbit 43 rep=00010777 size=4444160 stab=72 weight=10
+orbit 44 rep=0001077f size=6666240 stab=48 weight=11
+orbit 45 rep=000107ff size=1666560 stab=192 weight=12
+orbit 46 rep=00010fff size=138880 stab=2304 weight=13
+orbit 47 rep=0001177e size=444416 stab=720 weight=11
+orbit 48 rep=0001177f size=2666496 stab=120 weight=12
+orbit 49 rep=000117ff size=1666560 stab=192 weight=13
+orbit 50 rep=00011fff size=555520 stab=576 weight=14
+orbit 51 rep=00013fff size=119040 stab=2688 weight=15
+orbit 52 rep=00017fff size=15872 stab=20160 weight=16
+orbit 53 rep=0001ffff size=992 stab=322560 weight=17
+orbit 54 rep=0003033f size=83328 stab=3840 weight=10
+orbit 55 rep=00030355 size=277760 stab=1152 weight=8
+orbit 56 rep=00030356 size=1666560 stab=192 weight=8
+orbit 57 rep=00030357 size=6666240 stab=48 weight=9
+orbit 58 rep=0003035f size=4999680 stab=64 weight=10
+orbit 59 rep=0003037f size=1666560 stab=192 weight=11
+orbit 60 rep=000303ff size=208320 stab=1536 weight=12
+orbit 61 rep=00030567 size=6666240 stab=48 weight=9
+orbit 62 rep=0003056f size=1666560 stab=192 weight=10
+orbit 63 rep=00030577 size=19998720 stab=16 weight=10
+orbit 64 rep=0003057f size=9999360 stab=32 weight=11
+orbit 65 rep=000305ff size=1249920 stab=256 weight=12
+orbit 66 rep=00030777 size=13332480 stab=24 weight=11
+orbit 67 rep=0003077f size=9999360 stab=32 weight=12
+orbit 68 rep=000307ff size=2499840 stab=128 weight=13
+orbit 69 rep=00030fff size=208320 stab=1536 weight=14
+orbit 70 rep=00031556 size=2222080 stab=144 weight=9
+orbit 71 rep=00031557 size=2222080 stab=144 weight=10
+orbit 72 rep=0003155b size=19998720 stab=16 weight=10
+orbit 73 rep=0003155f size=19998720 stab=16 weight=11
+orbit 74 rep=0003156f size=19998720 stab=16 weight=11
+orbit 75 rep=0003157f size=26664960 stab=12 weight=12
+orbit 76 rep=000315ff size=3333120 stab=96 weight=13
+orbit 77 rep=0003177d size=3333120 stab=96 weight=12
+orbit 78 rep=0003177e size=3333120 stab=96 weight=12
+orbit 79 rep=0003177f size=13332480 stab=24 weight=13
+orbit 80 rep=000317ff size=4999680 stab=64 weight=14
+orbit 81 rep=00031fff size=833280 stab=384 weight=15
+orbit 82 rep=00033fff size=59520 stab=5376 weight=16
+orbit 83 rep=00035556 size=317440 stab=1008 weight=10
+orbit 84 rep=00035557 size=317440 stab=1008 weight=11
+orbit 85 rep=0003555a size=833280 stab=384 weight=10
+orbit 86 rep=0003555b size=6666240 stab=48 weight=11
+orbit 87 rep=0003555f size=3333120 stab=96 weight=12
+orbit 88 rep=0003556f size=9999360 stab=32 weight=12
+orbit 89 rep=0003557f size=6666240 stab=48 weight=13
+orbit 90 rep=000355ff size=833280 stab=384 weight=14
+orbit 91 rep=0003567f size=6666240 stab=48 weight=13
+orbit 92 rep=000356ff size=833280 stab=384 weight=14
+orbit 93 rep=0003577f size=6666240 stab=48 weight=14
+orbit 94 rep=000357ff size=3333120 stab=96 weight=15
+orbit 95 rep=00035fff size=833280 stab=384 weight=16
+orbit 96 rep=00037fff size=119040 stab=2688 weight=17
+orbit 97 rep=0003ffff size=7440 stab=43008 weight=18
+orbit 98 rep=00070777 size=2222080 stab=144 weight=12
+orbit 99 rep=0007077f size=2222080 stab=144 weight=13
+orbit 100 rep=000707ff size=833280 stab=384 weight=14
+orbit 101 rep=00070fff size=138880 stab=2304 weight=15
+orbit 102 rep=0007133d size=9999360 stab=32 weight=11
+orbit 103 rep=0007133f size=4999680 stab=64 weight=12
+orbit 104 rep=00071356 size=2666496 stab=120 weight=10
+orbit 105 rep=00071357 size=31997952 stab=10 weight=11
+orbit 106 rep=0007135f size=39997440 stab=8 weight=12
+orbit 107 rep=0007137d size=39997440 stab=8 weight=12
+orbit 108 rep=0007137f size=39997440 stab=8 weight=13
+orbit 109 rep=000713ff size=4999680 stab=64 weight=14
+orbit 110 rep=00071777 size=26664960 stab=12 weight=13
+orbit 111 rep=0007177e size=8888320 stab=36 weight=13
+orbit 112 rep=0007177f size=26664960 stab=12 weight=14
+orbit 113 rep=000717ff size=6666240 stab=48 weight=15
+orbit 114 rep=00071fff size=555520 stab=576 weight=16
+orbit 115 rep=0007333c size=166656 stab=1920 weight=11
+orbit 116 rep=0007333d size=3333120 stab=96 weight=12
+orbit 117 rep=0007333f size=1666560 stab=192 weight=13
+orbit 118 rep=00073356 size=6666240 stab=48 weight=11
+orbit 119 rep=00073357 size=39997440 stab=8 weight=12
+orbit 120 rep=0007335f size=19998720 stab=16 weight=13
+orbit 121 rep=00073377 size=9999360 stab=32 weight=13
+orbit 122 rep=0007337d size=19998720 stab=16 weight=13
+orbit 123 rep=0007337f size=19998720 stab=16 weight=14
+orbit 124 rep=000733ff size=2499840 stab=128 weight=15
+orbit 125 rep=00073567 size=26664960 stab=12 weight=12
+orbit 126 rep=0007356f size=6666240 stab=48 weight=13
+orbit 127 rep=00073577 size=79994880 stab=4 weight=13
+orbit 128 rep=0007357f size=39997440 stab=8 weight=14
+orbit 129 rep=000735ff size=4999680 stab=64 weight=15
+orbit 130 rep=00073777 size=26664960 stab=12 weight=14
+orbit 131 rep=0007377d size=26664960 stab=12 weight=14
+orbit 132 rep=0007377f size=39997440 stab=8 weight=15
+orbit 133 rep=000737ff size=9999360 stab=32 weight=16
+orbit 134 rep=00073fff size=833280 stab=384 weight=17
+orbit 135 rep=00077777 size=2222080 stab=144 weight=15
+orbit 136 rep=0007777b size=6666240 stab=48 weight=15
+orbit 137 rep=0007777f size=8888320 stab=36 weight=16
+orbit 138 rep=000777ff size=3333120 stab=96 weight=17
+orbit 139 rep=00077fff size=555520 stab=576 weight=18
+orbit 140 rep=0007ffff size=34720 stab=9216 weight=19
+orbit 141 rep=000f0fff size=8680 stab=36864 weight=16
+orbit 142 rep=000f1777 size=6666240 stab=48 weight=14
+orbit 143 rep=000f177e size=2222080 stab=144 weight=14
+orbit 144 rep=000f177f size=6666240 stab=48 weight=15
+orbit 145 rep=000f17ff size=1666560 stab=192 weight=16
+orbit 146 rep=000f1fff size=138880 stab=2304 weight=17
+orbit 147 rep=000f333c size=13888 stab=23040 weight=12
+orbit 148 rep=000f333d size=277760 stab=1152 weight=13
+orbit 149 rep=000f333f size=138880 stab=2304 weight=14
+orbit 150 rep=000f3355 size=833280 stab=384 weight=12
+orbit 151 rep=000f3356 size=2499840 stab=128 weight=12
+orbit 152 rep=000f3357 size=9999360 stab=32 weight=13
+orbit 153 rep=000f335f size=4999680 stab=64 weight=14
+orbit 154 rep=000f337d size=2499840 stab=128 weight=14
+orbit 155 rep=000f337f size=2499840 stab=128 weight=15
+orbit 156 rep=000f33ff size=312480 stab=1024 weight=16
+orbit 157 rep=000f3567 size=6666240 stab=48 weight=13
+orbit 158 rep=000f356f size=1666560 stab=192 weight=14
+orbit 159 rep=000f3577 size=19998720 stab=16 weight=14
+orbit 160 rep=000f357f size=9999360 stab=32 weight=15
+orbit 161 rep=000f35ff size=1249920 stab=256 weight=16
+orbit 162 rep=000f3777 size=6666240 stab=48 weight=15
+orbit 163 rep=000f377d size=6666240 stab=48 weight=15
+orbit 164 rep=000f377f size=9999360 stab=32 weight=16
+orbit 165 rep=000f37ff size=2499840 stab=128 weight=17
+orbit 166 rep=000f3fff size=208320 stab=1536 weight=18
+orbit 167 rep=000f7777 size=555520 stab=576 weight=16
+orbit 168 rep=000f777b size=1666560 stab=192 weight=16
+orbit 169 rep=000f777f size=2222080 stab=144 weight=17
+orbit 170 rep=000f77ff size=833280 stab=384 weight=18
+orbit 171 rep=000f7fff size=138880 stab=2304 weight=19
+orbit 172 rep=000fffff size=8680 stab=36864 weight=20
+orbit 173 rep=0017173d size=6666240 stab=48 weight=13
+orbit 174 rep=0017173f size=9999360 stab=32 weight=14
+orbit 175 rep=0017177e size=3333120 stab=96 weight=14
+orbit 176 rep=0017177f size=6666240 stab=48 weight=15
+orbit 177 rep=001717ff size=833280 stab=384 weight=16
+orbit 178 rep=00171b3d size=19998720 stab=16 weight=13
+orbit 179 rep=00171b3f size=9999360 stab=32 weight=14
+orbit 180 rep=00171b56 size=2666496 stab=120 weight=12
+orbit 181 rep=00171b57 size=53329920 stab=6 weight=13
+orbit 182 rep=00171b5f size=79994880 stab=4 weight=14
+orbit 183 rep=00171b7d size=39997440 stab=8 weight=14
+orbit 184 rep=00171b7f size=39997440 stab=8 weight=15
+orbit 185 rep=00171bff size=4999680 stab=64 weight=16
+orbit 186 rep=00171f3d size=79994880 stab=4 weight=14
+orbit 187 rep=00171f3f size=39997440 stab=8 weight=15
+orbit 188 rep=00171f77 size=79994880 stab=4 weight=15
+orbit 189 rep=00171f7e size=26664960 stab=12 weight=15
+orbit 190 rep=00171f7f size=53329920 stab=6 weight=16
+orbit 191 rep=00171fff size=6666240 stab=48 weight=17
+orbit 192 rep=00173d3d size=6666240 stab=48 weight=14
+orbit 193 rep=00173d3f size=39997440 stab=8 weight=15
+orbit 194 rep=00173d5b size=39997440 stab=8 weight=14
+orbit 195 rep=00173d5f size=79994880 stab=4 weight=15
+orbit 196 rep=00173d7e size=19998720 stab=16 weight=15
+orbit 197 rep=00173d7f size=39997440 stab=8 weight=16
+orbit 198 rep=00173dff size=4999680 stab=64 weight=17
+orbit 199 rep=00173f3f size=9999360 stab=32 weight=16
+orbit 200 rep=00173f5f size=39997440 stab=8 weight=16
+orbit 201 rep=00173f7d size=9999360 stab=32 weight=16
+orbit 202 rep=00173f7e size=19998720 stab=16 weight=16
+orbit 203 rep=00173f7f size=39997440 stab=8 weight=17
+orbit 204 rep=00173fff size=4999680 stab=64 weight=18
+orbit 205 rep=00177e7e size=1666560 stab=192 weight=16
+orbit 206 rep=00177e7f size=6666240 stab=48 weight=17
+orbit 207 rep=00177eff size=833280 stab=384 weight=18
+orbit 208 rep=00177f7f size=6666240 stab=48 weight=18
+orbit 209 rep=00177fff size=1666560 stab=192 weight=19
+orbit 210 rep=0017ffff size=104160 stab=3072 weight=20
+orbit 211 rep=001f1f77 size=13332480 stab=24 weight=16
+orbit 212 rep=001f1f7f size=6666240 stab=48 weight=17
+orbit 213 rep=001f1fff size=833280 stab=384 weight=18
+orbit 214 rep=001f373d size=6666240 stab=48 weight=15
+orbit 215 rep=001f373f size=9999360 stab=32 weight=16
+orbit 216 rep=001f3757 size=53329920 stab=6 weight=15
+orbit 217 rep=001f375f size=79994880 stab=4 weight=16
+orbit 218 rep=001f377d size=39997440 stab=8 weight=16
+orbit 219 rep=001f377f size=39997440 stab=8 weight=17
+orbit 220 rep=001f37ff size=4999680 stab=64 weight=18
+orbit 221 rep=001f3f3f size=2499840 stab=128 weight=17
+orbit 222 rep=001f3f5f size=9999360 stab=32 weight=17
+orbit 223 rep=001f3f77 size=39997440 stab=8 weight=17
+orbit 224 rep=001f3f7f size=19998720 stab=16 weight=18
+orbit 225 rep=001f3fff size=2499840 stab=128 weight=19
+orbit 226 rep=001f7777 size=6666240 stab=48 weight=17
+orbit 227 rep=001f777b size=19998720 stab=16 weight=17
+orbit 228 rep=001f777f size=26664960 stab=12 weight=18
+orbit 229 rep=001f77ff size=3333120 stab=96 weight=19
+orbit 230 rep=001f7f7f size=6666240 stab=48 weight=19
+orbit 231 rep=001f7fff size=1666560 stab=192 weight=20
+orbit 232 rep=001fffff size=104160 stab=3072 weight=21
+orbit 233 rep=003f3f3f size=138880 stab=2304 weight=18
+orbit 234 rep=003f3f5f size=4999680 stab=64 weight=18
+orbit 235 rep=003f3f7f size=1666560 stab=192 weight=19
+orbit 236 rep=003f3fff size=208320 stab=1536 weight=20
+orbit 237 rep=003f5f6f size=1666560 stab=192 weight=18
+orbit 238 rep=003f5f77 size=6666240 stab=48 weight=18
+orbit 239 rep=003f5f7f size=9999360 stab=32 weight=19
+orbit 240 rep=003f5fff size=1249920 stab=256 weight=20
+orbit 241 rep=003f7f7f size=3333120 stab=96 weight=20
+orbit 242 rep=003f7fff size=833280 stab=384 weight=21
+orbit 243 rep=003fffff size=52080 stab=6144 weight=22
+orbit 244 rep=007f7f7f size=317440 stab=1008 weight=21
+orbit 245 rep=007f7fff size=119040 stab=2688 weight=22
+orbit 246 rep=007fffff size=14880 stab=21504 weight=23
+orbit 247 rep=00ffffff size=620 stab=516096 weight=24
+orbit 248 rep=0117177e size=444416 stab=720 weight=15
+orbit 249 rep=0117177f size=444416 stab=720 weight=16
+orbit 250 rep=011717bc size=3333120 stab=96 weight=14
+orbit 251 rep=011717bd size=19998720 stab=16 weight=15
+orbit 252 rep=011717bf size=19998720 stab=16 weight=16
+orbit 253 rep=011717fe size=6666240 stab=48 weight=16
+orbit 254 rep=011717ff size=6666240 stab=48 weight=17
+orbit 255 rep=01171bd7 size=31997952 stab=10 weight=15
+orbit 256 rep=01171bdf size=53329920 stab=6 weight=16
+orbit 257 rep=01171bfc size=19998720 stab=16 weight=15
+orbit 258 rep=01171bfd size=79994880 stab=4 weight=16
+orbit 259 rep=01171bff size=39997440 stab=8 weight=17
+orbit 260 rep=01171ff6 size=39997440 stab=8 weight=16
+orbit 261 rep=01171ff7 size=79994880 stab=4 weight=17
+orbit 262 rep=01171ffe size=26664960 stab=12 weight=17
+orbit 263 rep=01171fff size=26664960 stab=12 weight=18
+orbit 264 rep=01173ded size=31997952 stab=10 weight=16
+orbit 265 rep=01173def size=79994880 stab=4 weight=17
+orbit 266 rep=01173dff size=39997440 stab=8 weight=18
+orbit 267 rep=01173ffc size=6666240 stab=48 weight=17
+orbit 268 rep=01173ffd size=26664960 stab=12 weight=18
+orbit 269 rep=01173fff size=13332480 stab=24 weight=19
+orbit 270 rep=01177eff size=6666240 stab=48 weight=19
+orbit 271 rep=01177fff size=2666496 stab=120 weight=20
+orbit 272 rep=0117ffff size=166656 stab=1920 weight=21
+orbit 273 rep=011f1ff7 size=6666240 stab=48 weight=18
+orbit 274 rep=011f1ffe size=2222080 stab=144 weight=18
+orbit 275 rep=011f1fff size=2222080 stab=144 weight=19
+orbit 276 rep=011f377c size=1666560 stab=192 weight=16
+orbit 277 rep=011f377d size=19998720 stab=16 weight=17
+orbit 278 rep=011f377f size=9999360 stab=32 weight=18
+orbit 279 rep=011f37bc size=1666560 stab=192 weight=16
+orbit 280 rep=011f37bd size=19998720 stab=16 weight=17
+orbit 281 rep=011f37bf size=9999360 stab=32 weight=18
+orbit 282 rep=011f37d6 size=5332992 stab=60 weight=16
+orbit 283 rep=011f37d7 size=31997952 stab=10 weight=17
+orbit 284 rep=011f37dd size=53329920 stab=6 weight=17
+orbit 285 rep=011f37df size=79994880 stab=4 weight=18
+orbit 286 rep=011f37fc size=6666240 stab=48 weight=17
+orbit 287 rep=011f37fd size=79994880 stab=4 weight=18
+orbit 288 rep=011f37ff size=39997440 stab=8 weight=19
+orbit 289 rep=011f3ff5 size=19998720 stab=16 weight=18
+orbit 290 rep=011f3ff7 size=19998720 stab=16 weight=19
+orbit 291 rep=011f3ffc size=2499840 stab=128 weight=18
+orbit 292 rep=011f3ffd size=19998720 stab=16 weight=19
+orbit 293 rep=011f3fff size=9999360 stab=32 weight=20
+orbit 294 rep=011f777b size=39997440 stab=8 weight=18
+orbit 295 rep=011f777f size=26664960 stab=12 weight=19
+orbit 296 rep=011f77bd size=39997440 stab=8 weight=18
+orbit 297 rep=011f77bf size=79994880 stab=4 weight=19
+orbit 298 rep=011f77ff size=26664960 stab=12 weight=20
+orbit 299 rep=011f7ff7 size=3333120 stab=96 weight=20
+orbit 300 rep=011f7ffb size=9999360 stab=32 weight=20
+orbit 301 rep=011f7fff size=6666240 stab=48 weight=21
+orbit 302 rep=011fffff size=416640 stab=768 weight=22
+orbit 303 rep=013f3f7d size=9999360 stab=32 weight=19
+orbit 304 rep=013f3f7f size=4999680 stab=64 weight=20
+orbit 305 rep=013f3ffc size=277760 stab=1152 weight=19
+orbit 306 rep=013f3ffd size=3333120 stab=96 weight=20
+orbit 307 rep=013f3fff size=1666560 stab=192 weight=21
+orbit 308 rep=013f5f6f size=6666240 stab=48 weight=19
+orbit 309 rep=013f5f77 size=53329920 stab=6 weight=19
+orbit 310 rep=013f5f7f size=39997440 stab=8 weight=20
+orbit 311 rep=013f5ff6 size=6666240 stab=48 weight=19
+orbit 312 rep=013f5ff7 size=39997440 stab=8 weight=20
+orbit 313 rep=013f5fff size=9999360 stab=32 weight=21
+orbit 314 rep=013f7f7f size=19998720 stab=16 weight=21
+orbit 315 rep=013f7ffd size=6666240 stab=48 weight=21
+orbit 316 rep=013f7fff size=6666240 stab=48 weight=22
+orbit 317 rep=013fffff size=416640 stab=768 weight=23
+orbit 318 rep=017f7f7f size=2222080 stab=144 weight=22
+orbit 319 rep=017f7ffe size=317440 stab=1008 weight=22
+orbit 320 rep=017f7fff size=952320 stab=336 weight=23
+orbit 321 rep=017fffff size=119040 stab=2688 weight=24
+orbit 322 rep=01ffffff size=4960 stab=64512 weight=25
+orbit 323 rep=033f3ffc size=13888 stab=23040 weight=20
+orbit 324 rep=033f3ffd size=166656 stab=1920 weight=21
+orbit 325 rep=033f3fff size=83328 stab=3840 weight=22
+orbit 326 rep=033f566a size=27776 stab=11520 weight=16
+orbit 327 rep=033f566b size=444416 stab=720 weight=17
+orbit 328 rep=033f566f size=3333120 stab=96 weight=18
+orbit 329 rep=033f567f size=8888320 stab=36 weight=19
+orbit 330 rep=033f56ff size=3333120 stab=96 weight=20
+orbit 331 rep=033f577f size=2222080 stab=144 weight=20
+orbit 332 rep=033f57d6 size=3333120 stab=96 weight=18
+orbit 333 rep=033f57d7 size=6666240 stab=48 weight=19
+orbit 334 rep=033f57db size=19998720 stab=16 weight=19
+orbit 335 rep=033f57df size=39997440 stab=8 weight=20
+orbit 336 rep=033f57ff size=13332480 stab=24 weight=21
+orbit 337 rep=033f5ff5 size=833280 stab=384 weight=20
+orbit 338 rep=033f5ff6 size=2499840 stab=128 weight=20
+orbit 339 rep=033f5ff7 size=9999360 stab=32 weight=21
+orbit 340 rep=033f5fff size=4999680 stab=64 weight=22
+orbit 341 rep=033f7ffd size=833280 stab=384 weight=22
+orbit 342 rep=033f7fff size=833280 stab=384 weight=23
+orbit 343 rep=033fffff size=52080 stab=6144 weight=24
+orbit 344 rep=03567fff size=444416 stab=720 weight=21
+orbit 345 rep=0356ffff size=27776 stab=11520 weight=22
+orbit 346 rep=03576ff7 size=26664960 stab=12 weight=20
+orbit 347 rep=03576fff size=19998720 stab=16 weight=21
+orbit 348 rep=03577fff size=4444160 stab=72 weight=22
+orbit 349 rep=0357ffff size=277760 stab=1152 weight=23
+orbit 350 rep=035f6ff7 size=6666240 stab=48 weight=21
+orbit 351 rep=035f6fff size=1666560 stab=192 weight=22
+orbit 352 rep=035f777e size=2666496 stab=120 weight=20
+orbit 353 rep=035f777f size=31997952 stab=10 weight=21
+orbit 354 rep=035f77ff size=19998720 stab=16 weight=22
+orbit 355 rep=035f7ff7 size=19998720 stab=16 weight=22
+orbit 356 rep=035f7fff size=9999360 stab=32 weight=23
+orbit 357 rep=035fffff size=624960 stab=512 weight=24
+orbit 358 rep=037f7f7f size=6666240 stab=48 weight=23
+orbit 359 rep=037f7ffd size=2222080 stab=144 weight=23
+orbit 360 rep=037f7fff size=3333120 stab=96 weight=24
+orbit 361 rep=037fffff size=416640 stab=768 weight=25
+orbit 362 rep=03ffffff size=17360 stab=18432 weight=26
+orbit 363 rep=07777bdf size=2666496 stab=120 weight=22
+orbit 364 rep=07777bff size=6666240 stab=48 weight=23
+orbit 365 rep=07777fff size=4444160 stab=72 weight=24
+orbit 366 rep=0777ffff size=277760 stab=1152 weight=25
+orbit 367 rep=077f7ff7 size=277760 stab=1152 weight=24
+orbit 368 rep=077f7ffb size=1666560 stab=192 weight=24
+orbit 369 rep=077f7fff size=2222080 stab=144 weight=25
+orbit 370 rep=077fffff size=416640 stab=768 weight=26
+orbit 371 rep=07ffffff size=34720 stab=9216 weight=27
+orbit 372 rep=0fffffff size=1240 stab=258048 weight=28
+orbit 373 rep=177e7fff size=444416 stab=720 weight=25
+orbit 374 rep=177effff size=27776 stab=11520 weight=26
+orbit 375 rep=177f7fff size=444416 stab=720 weight=26
+orbit 376 rep=177fffff size=166656 stab=1920 weight=27
+orbit 377 rep=17ffffff size=34720 stab=9216 weight=28
+orbit 378 rep=1fffffff size=4960 stab=64512 weight=29
+orbit 379 rep=3fffffff size=496 stab=645120 weight=30
+orbit 380 rep=7fffffff size=32 stab=9999360 weight=31
+orbit 381 rep=ffffffff size=1 stab=319979520 weight=32
+SUMMARY orbits=382 total=4294967296 (2^32=4294967296) maxsize=79994880 |G|=319979520
+HIST stab=4 orbits=12
+HIST stab=6 orbits=6
+HIST stab=8 orbits=26
+HIST stab=10 orbits=5
+HIST stab=12 orbits=14
+HIST stab=16 orbits=26
+HIST stab=24 orbits=5
+HIST stab=32 orbits=25
+HIST stab=36 orbits=3
+HIST stab=48 orbits=43
+HIST stab=60 orbits=1
+HIST stab=64 orbits=13
+HIST stab=72 orbits=4
+HIST stab=96 orbits=18
+HIST stab=120 orbits=6
+HIST stab=128 orbits=10
+HIST stab=144 orbits=14
+HIST stab=192 orbits=19
+HIST stab=256 orbits=3
+HIST stab=336 orbits=2
+HIST stab=384 orbits=18
+HIST stab=512 orbits=2
+HIST stab=576 orbits=4
+HIST stab=720 orbits=9
+HIST stab=768 orbits=8
+HIST stab=1008 orbits=4
+HIST stab=1024 orbits=1
+HIST stab=1152 orbits=8
+HIST stab=1536 orbits=4
+HIST stab=1920 orbits=6
+HIST stab=2304 orbits=6
+HIST stab=2688 orbits=6
+HIST stab=3072 orbits=4
+HIST stab=3840 orbits=2
+HIST stab=5376 orbits=1
+HIST stab=6144 orbits=4
+HIST stab=9216 orbits=6
+HIST stab=11520 orbits=5
+HIST stab=18432 orbits=2
+HIST stab=20160 orbits=1
+HIST stab=21504 orbits=2
+HIST stab=23040 orbits=2
+HIST stab=36864 orbits=3
+HIST stab=43008 orbits=2
+HIST stab=64512 orbits=4
+HIST stab=258048 orbits=2
+HIST stab=322560 orbits=2
+HIST stab=516096 orbits=2
+HIST stab=645120 orbits=2
+HIST stab=5160960 orbits=1
+HIST stab=9999360 orbits=2
+HIST stab=319979520 orbits=2
+FREE_ORBITS 0
